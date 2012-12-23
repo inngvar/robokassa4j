@@ -50,17 +50,13 @@ public interface RequestData extends SuccessInfo {
 	 * 
 	 * @return login магазина в обменном пункте(обязательный параметр)
 	 */
-	public String getMrchLogin();
-
-	
+	public String getMrchLogin();	
 
 	/**
 	 * 
 	 * @return описание покупки
 	 */
-	public String getInvDesc();
-
-	
+	public String getInvDesc();	
 
 	/**
 	 * предлагаемая валюта платежа.
