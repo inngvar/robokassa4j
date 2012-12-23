@@ -6,6 +6,6 @@ public interface CultureInfo {
 	 * 
 	 * @return опционально, язык общения с клиентом.
 	 */
-	public abstract String getCulture();
+	public String getCulture();
 
 }
