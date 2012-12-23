@@ -6,3 +6,4 @@
 /org.robo/target/classes/META-INF/maven/org.robo/org.robo/pom.xml
 /org.robo/target/classes/META-INF/maven/org.robo/org.robo/pom.properties
 /org.robo/target/classes/META-INF/MANIFEST.MF
+*.class
