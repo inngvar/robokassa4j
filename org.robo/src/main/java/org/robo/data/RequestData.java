@@ -1,7 +1,9 @@
 package org.robo.data;
 
+import java.util.Map;
+
 /**
- * �?нтерфейс данных для отправки на сервер робокассы.
+ * �?нтерфейс данных для отправки на сервер робокассы.
  * 
  * @author igor.ch
  * 
@@ -64,6 +66,12 @@ public interface RequestData extends SuccessInfo {
 	 * предлагаемая валюта платежа.
 	 */
 	public String getIncCurrLabel();
+	
+	/**
+	 * Additional user parameters
+	 * @return Map with additional user parameters
+	 */
+	public Map<String,String> getUserParameters();
 
 	
 }
